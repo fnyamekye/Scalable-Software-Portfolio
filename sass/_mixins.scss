@@ -1,0 +1,14 @@
+@mixin flexCtnr($direction,$align){
+  display: flex;
+  justify-content: space-between;
+  align-items: $align;
+  flex-direction: #{$direction};
+
+}
+
+@mixin gridCtnr($coln, $rown, $gap){
+  display: grid;
+  grid-template-columns: repeat(#{$coln},1fr);
+  grid-template-rows: repeat(#{$rown},40px);
+  gap: #{$gap};
+}

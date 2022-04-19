@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Merriweather&display=swap');
+
+
+$in-touch-btn-clr: #FFD339;
+$hover-button-clr: #fddb60;
+$merri-weather-font-family: 'Merriweather';
+$hind-siliguri-font-family: 'Hind Siliguri';
+$font-size:(
+  "big": 2.813rem,
+  "normal": 2.188rem,
+  "medium": 1.25rem,
+  "small": 0.938rem
+);
+$font-weight:(
+  "regular": 450,
+  "normal": 600,
+  "bold": 700,
+);
+$text-color: (
+  "full-white": #FFFFFF,
+  "reduce-white": #FBFBFB,
+  "grey": #C6C6C6,
+
+);
+$default-padding: 0 8%;
+

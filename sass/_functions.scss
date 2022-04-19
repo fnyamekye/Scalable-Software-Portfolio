@@ -1,0 +1,7 @@
+@function display($state){
+  @if #{$state} == hide {
+    @return none;
+  } @else if  #{$state} == show {
+    @return flex;
+  }
+}
